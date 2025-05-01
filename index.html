@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/home.css">
+  <script src="search.js" defer></script>
+  <title>Waffle Search</title>
+</head>
+<body>
+
+  <h1><i class="fas fa-search"></i> Search Waffles</h1>
+  <div class="center-search-container">
+    <button class="url-button" aria-label="Search" onclick="performSearch()">
+      <i class="fas fa-search"></i>
+    </button>
+      <input id="search-input" type="text" class="center-search-bar" placeholder="Enter a word to search..." />
+  </div>
+
+  <div id="search-results" class="result-container"></div>
+</body>
+</html>
