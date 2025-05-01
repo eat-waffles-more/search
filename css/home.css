@@ -1,0 +1,82 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 225px;
+    margin-bottom: 32px; /* Add margin to create space between heading and search bar */
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.center-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+}
+
+.center-search-bar {
+    width: 500px;
+    padding: 14px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.center-search-bar:focus {
+    border-color: #4285f4;
+    box-shadow: 0 0 8px rgba(66, 133, 244, 0.5);
+}
+/* Add simple styles for displaying search results */
+.result-container {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .result {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .result a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  .result a:hover {
+    text-decoration: underline;
+  }
+  .url-button {
+    background-color: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .calculator {
+    background-color: #f3f3f3;
+    border-left: 4px solid #4caf50;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: monospace;
+  }
+  #search-results .result {
+    margin-top: 10px;
+  }
+  
+  #search-results .result code {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
